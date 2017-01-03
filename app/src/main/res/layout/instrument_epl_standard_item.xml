@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:descendantFocusability= "blocksDescendants"
+    >
+
+    <android.support.v7.widget.CardView
+
+        style="@style/sameCornerRadiusCardview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        card_view:cardBackgroundColor="@color/colorPrimary"
+        >
+        <!--android:foreground="?android:attr/selectableItemBackground"-->
+        <!--style="@style/sameCornerRadiusCardview"-->
+        <!--card_view:contentPaddingLeft="10dp"-->
+        <!--card_view:contentPaddingRight="10dp"-->
+        <!--card_view:cardBackgroundColor="@color/colorPrimary"-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="名称"
+                android:gravity="center"
+                android:textColor="@color/text_icons"
+                android:textSize="@dimen/eplv_group_textsize"
+                android:id="@+id/name_group_expend"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="----" android:gravity="center"
+                android:textColor="@color/text_icons"
+                android:textSize="@dimen/eplv_group_textsize"
+                android:id="@+id/tips_group_expend"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="time" android:gravity="center"
+                android:textColor="@color/text_icons"
+                android:textSize="@dimen/eplv_group_textsize"
+                android:id="@+id/time_group_expend"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="----" android:gravity="center"
+                android:textColor="@color/text_icons"
+                android:textSize="@dimen/eplv_group_textsize"
+                />
+
+            <Button
+                android:layout_margin="4dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/text_icons"
+                android:gravity="center"
+                android:textSize="@dimen/eplv_group_textsize"
+                android:focusable = "false"
+                android:id="@+id/color_spc_epl_standard"/>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</FrameLayout>

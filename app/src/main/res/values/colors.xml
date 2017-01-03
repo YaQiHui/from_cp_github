@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#673ab7</color>-->
+    <!--<color name="colorPrimaryDark">#512da8</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <!--<color name="colorPrimary">#ff7072</color>-->
+    <!--<color name="colorPrimaryDark">#ee6062</color>-->
+    <!--<color name="colorAccent">#4eb3a3</color>-->
+
+
+    <color name="colorPrimary">#4eb3a3</color>
+    <color name="colorPrimaryDark">#3ea393</color>
+    <color name="colorAccent">#ff7072</color>
+
+    <color name="lightPrimary">#d1c4e9</color>
+    <color name="text_icons">#ffffff</color>
+
+
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#757575</color>
+    <color name="dividerColor">#bdbdbd</color>
+
+    <color name="color_dialogbackground">#22222222</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="bt_color_dialog">#3689e7</color>
+    <color name="bt_bg">#2196f3</color>
+
+    //button gradient color
+    <color name="startcolor_bt_bg">#cccccc</color>
+    <color name="endcolor_bt_bg">#ffffff</color>
+    //button stroke color
+    <color name="strokecolor_bt_bg">#ff0000</color>
+</resources>

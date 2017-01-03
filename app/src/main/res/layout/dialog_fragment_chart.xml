@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+    >
+
+    <lecho.lib.hellocharts.view.LineChartView
+        android:id="@+id/chart_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+    </lecho.lib.hellocharts.view.LineChartView>
+
+    <TextView
+
+        android:id="@+id/tv_chartdetial_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click point"
+        />
+
+    <lecho.lib.hellocharts.view.PreviewLineChartView
+        android:id="@+id/chart_preview_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </lecho.lib.hellocharts.view.PreviewLineChartView>
+</LinearLayout>

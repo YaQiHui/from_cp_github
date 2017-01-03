@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/instrument_table_height">
+    <TextView
+        android:id="@+id/item_title_lv2_instrument"
+        android:layout_width="@dimen/instrument_table_width"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/item_con1_lv2_instrument"
+        android:layout_width="@dimen/instrument_table_width"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/item_con2_lv2_instrument"
+        android:layout_width="@dimen/instrument_table_width"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/item_con3_lv2_instrument"
+        android:layout_width="@dimen/instrument_table_width"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/item_con4_lv2_instrument"
+        android:layout_width="@dimen/instrument_table_width"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/item_con5_lv2_instrument"
+        android:layout_width="@dimen/instrument_table_width"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        />
+
+</LinearLayout>

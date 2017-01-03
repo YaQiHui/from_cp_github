@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".UI.Activitys.RegisterActivity"
+    tools:showIn="@layout/activity_register">
+    <EditText
+        android:id="@+id/et_user_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:drawableLeft="@drawable/ic_menu_send"
+        android:drawablePadding="24px"
+        android:hint="手机号"
+        android:inputType="phone"
+        android:layout_marginLeft="32px"
+        android:layout_marginRight="32px"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"
+        android:orientation="horizontal"
+        android:layout_marginLeft="32px"
+        android:layout_marginRight="32px">
+
+        <EditText
+            android:id="@+id/et_verification_code"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:drawableLeft="@drawable/ic_menu_manage"
+            android:drawablePadding="24px"
+            android:hint="验证码"
+            android:inputType="phone"
+            android:layout_marginRight="40px"/>
+
+        <Button
+            android:id="@+id/btn_get_verification_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="获取验证码"
+            android:textSize="14dp"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100px"
+        android:gravity="center"
+        android:text="登录"
+        android:layout_marginLeft="32px"
+        android:layout_marginRight="32px"/>
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/ll_tables"
+        android:layout_width="@dimen/TabSwitcher_width"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.color.measurement.from_cp.UI.view.VerticalTextView
+
+            android:id="@+id/vtv_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/TabSwitcher_margin"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:tag="1"
+            app:direction="downtoup"
+            app:text="反射率图"
+            app:textColor="@android:color/white"   android:background="@color/colorPrimary"
+            app:textSize="@dimen/TabSwitcher_textsize"
+            >
+        </com.color.measurement.from_cp.UI.view.VerticalTextView>
+
+        <com.color.measurement.from_cp.UI.view.VerticalTextView
+            android:id="@+id/vtv_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/TabSwitcher_margin"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:tag="1"
+            app:direction="downtoup"
+            app:text="色差图"
+            app:textColor="@android:color/white"   android:background="@color/colorPrimary"
+            app:textSize="@dimen/TabSwitcher_textsize"
+            >
+        </com.color.measurement.from_cp.UI.view.VerticalTextView>
+
+        <com.color.measurement.from_cp.UI.view.VerticalTextView
+            android:id="@+id/vtv_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/TabSwitcher_margin"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:tag="1"
+            app:direction="downtoup"
+            app:text="详情"
+            app:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            app:textSize="@dimen/TabSwitcher_textsize"
+            >
+        </com.color.measurement.from_cp.UI.view.VerticalTextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fl_tables"
+        android:layout_width="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        >
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Base.Night" parent="AppTheme.Base">
+        <item name="mainBackground">#ffffff</item>
+        <item name="textColor">#000000</item>
+    </style>
+
+    <style name="AppTheme.Base.Day" parent="AppTheme.Base">
+        <item name="mainBackground">#000000</item>
+        <item name="textColor">#ffffff</item>
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:buttonStyle">@style/Widget.AppCompat.Button.Colored</item>
+    </style>
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="Mdialog" parent="android:Theme.Holo.Light.Dialog">
+        <!--<item name="android:windowBackground"> @drawable/bg</item>-->
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:windowFullscreen">true</item>-->
+        <item name="android:windowContentOverlay">@null</item>
+
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="sameCornerRadiusCardview" parent="Base.CardView">
+        <item name="cardCornerRadius">4dp</item>
+        <item name="cardElevation">2dp</item>
+        <!--<item name="cardBackgroundColor">@color/colorPrimary</item>-->
+        <!--<item name="contentPaddingLeft">10dp</item>-->
+        <!--<item name="contentPaddingRight">10dp</item>-->
+        <!--<item name="contentPaddingBottom">10dp</item>-->
+    </style>
+
+    <style name="myBaseButton" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/shape_btn_background_normal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_icons</item>
+        <item name="android:textSize">@dimen/button_textsize</item>
+        <!--<item name="android:color">@color/bt_bg</item>-->
+    </style>
+
+
+</resources>

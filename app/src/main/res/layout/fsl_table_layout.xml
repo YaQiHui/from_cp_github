@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.color.measurement.from_cp.UI.Activitys.instrument_600.TableA.FSL_table
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:s_sce_color="@android:color/holo_green_dark"
+    app:s_sci_color="@android:color/holo_red_dark"
+    app:t_sce_color="@android:color/darker_gray"
+    app:t_sci_color="@android:color/holo_blue_dark"
+    app:unit="nm">
+
+</com.color.measurement.from_cp.UI.Activitys.instrument_600.TableA.FSL_table>

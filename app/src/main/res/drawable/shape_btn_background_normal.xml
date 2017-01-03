@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    //背景渐变
+    <!--<gradient-->
+        <!--android:angle="90"-->
+        <!--android:endColor="@color/endcolor_bt_bg"-->
+        <!--android:startColor="@color/startcolor_bt_bg"></gradient>-->
+    //描边
+    <!--<stroke-->
+        <!--android:width="1sp"-->
+        <!--android:color="@color/strokecolor_bt_bg"></stroke>-->
+    //圆角
+    <corners android:radius="2dp"/>
+    //内缩
+    <padding
+        android:bottom="10dp"
+        android:left="15dp"
+        android:right="15dp"
+        android:top="10dp"/>
+    <solid android:color="@color/colorPrimary"></solid>
+</shape>
